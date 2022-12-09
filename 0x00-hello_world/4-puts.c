@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *  * Description: main - Puts the texts to stdout.
- *   * Return: 0 should code runs successfully.   
+ *  * Return: 0 should code runs successfully.   
  */
 int main(void)
 {
