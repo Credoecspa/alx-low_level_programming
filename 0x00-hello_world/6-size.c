@@ -3,7 +3,7 @@
  *  * Description: main - Prints the size of various types.
  *   *
  *    * Return: 0 if runs successfully.
- *     */
+ */
 int main(void)
 {
 		printf("Size of a char: %d byte(s)\n", sizeof(char));
