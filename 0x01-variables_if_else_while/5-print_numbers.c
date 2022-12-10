@@ -1,20 +1,17 @@
 #include <stdio.h>
 
 /**
- * Description: main - A program that prints all single digit
- * Return: 0
+ *main-program entry point.
+ *Return:0 no error, non zero if error
  */
-
 int main(void)
 {
-int num;
-while (num < 10)
-{
-printf("%d", num);
-num += 1;
+	char i;
+
+	for (i = '0'; i <= '9'; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
+	return (0);
 }
-printf("\n");
-return (0);
-}
-Footer
-© 2022 GitHub, Inc.
