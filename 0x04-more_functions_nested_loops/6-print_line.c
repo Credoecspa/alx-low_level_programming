@@ -1,24 +1,22 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- * print_line - function that draws a straight line in the terminal
- * @n: input number of times to print '_'
- * Return: straight line
+ * print_line - function that checks for uppercase character.
+ * @n: is the integer for the paramaters of my function
+ * Return: 0
  */
 void print_line(int n)
 {
-	int co;
+	int a = 0;
 
-	if (n <= 0)
+	if (n > 0)
 	{
-		_putchar('\n');
+		while (a <= n)
+		{
+			_putchar('_');
+			a++;
+		}
+	 _putchar('\n');
 	}
 	else
-	{
-		for (co = 1; co <= n; co++)
-		{
-			putchar('');
-		}
-		_putchar('\n');
-	}
+	_putchar('\n');
 }
