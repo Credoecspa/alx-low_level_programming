@@ -14,9 +14,9 @@ void print_number(int n)
 	int x;
 
 	if (n < 0)
-	size = -n;
+		size = -n;
 	if (n == 0)
-	num = 1;
+		num = 1;
 
 	while (size >= 1)
 	{
@@ -43,7 +43,7 @@ void print_number(int n)
 		{
 			d = -d;
 			if (x == 0)
-			_putchar(45);
+				_putchar(45);
 		}
 		_putchar(48 + d);
 	}
