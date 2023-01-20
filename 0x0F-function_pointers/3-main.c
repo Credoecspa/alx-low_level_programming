@@ -9,7 +9,7 @@
  * @argv: arguments vector.
  * Return: EXIT_SUCCESS.
  */
-int main(int argc _attribute_((unused)), char **argv)
+int main(int argc __attribute__((unused)), char **argv)
 {
 	int a1, b2, x;
 
